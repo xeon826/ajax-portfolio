@@ -1,15 +1,17 @@
 
 	#showcase-holder {
-		width:100%;
-		height:100vh;
-		position:absolute;
+		width:75%;
+		height:75vh;
+		position:relative;
+		display: block;
+		margin: auto;
 		perspective: 1000px;
 		overflow:hidden;
 	}
 
 	#showcase-tilt-wrap {
 		width:100%;
-		height:100vh;
+		height:100%;
 		position:absolute;
 		perspective: 1000px;
 		overflow:hidden;
@@ -79,7 +81,7 @@
 	.section-image {
 		position:relative;
 		width:100%;
-		height:100vh;
+		height:100%;
 		background-repeat:no-repeat;
 		background-position:center center;
 		background-size: cover;
@@ -739,7 +741,7 @@
 		position: relative;
 		width: calc(100% - 80px);
 		margin: 0 auto;
-		height:100vh;
+		height:100%;
 		overflow:visible;
 	}
 
@@ -939,7 +941,7 @@
 		position: relative;
 		width: calc(100% - 80px);
 		margin: 0 auto;
-		height:100vh;
+		height:100%;
 		overflow:visible;
 	}
 
@@ -972,7 +974,7 @@
 	}
 
 	.scale-up #large-showcase-carousel .section-wrap-image, .scale-up #large-showcase-carousel .swiper-slide:hover .section-wrap-image {
-		-webkit-clip-path: inset(50px 8p0x 50px 80px);
+		-webkit-clip-path: inset(50px 8px 50px 80px);
 		clip-path: inset(50px 80px 50px 80px);
 		-webkit-transition: 0.7s cubic-bezier(.075,.82,.165,1);
 		-moz-transition: 0.7s cubic-bezier(.075,.82,.165,1);
